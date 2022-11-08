@@ -4,7 +4,7 @@ import {useNavigate} from "react-router";
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 // icons
-import SearchIcon from '@mui/icons-material/Search';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import PaidIcon from '@mui/icons-material/Paid';
 import PriceCheckIcon from '@mui/icons-material/PriceCheck';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
@@ -40,7 +40,7 @@ const MenuMain = () => {
         <SpeedDial
             ariaLabel="SpeedDial tooltip example"
             sx={{ position: 'absolute', bottom: 30, right: 30 }}
-            icon={<SearchIcon />}
+            icon={<MenuOutlinedIcon />}
             onClose={handleClose}
             onOpen={handleOpen}
             open={open}

@@ -8,7 +8,14 @@ const PaginateTransactions = ({allPages,setCurrentPage}) => {
     };
 
     return (
-        <Pagination count={allPages} variant="outlined" color="primary" onChange={handleChange} />
+        <Pagination
+            showFirstButton
+            showLastButton
+            count={allPages}
+            // variant="outlined"
+            color="primary"
+            onChange={handleChange}
+        />
     );
 };
 
